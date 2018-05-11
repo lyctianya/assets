@@ -10,7 +10,7 @@ cc.Class({
         this.addLoginUI();
     },
     addLoginUI: function () {
-        cc.loader.loadRes("prefab/login", (error, prefab) => {
+        cc.loader.loadRes("prefab/chat", (error, prefab) => {
             if (error) {
                 console.log("load prefab/login error:", JSON.stringify(error));
                 return;
